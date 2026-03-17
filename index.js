@@ -34,7 +34,6 @@ Tôi có thể giúp bạn lưu trữ và tìm kiếm các link (bookmark) hữu
 /search <từ khoá> - Tìm kiếm
 /delete <ID> - Xoá bookmark theo ID
 /edit <ID> <url mới> [mô tả mới] - Cập nhật bookmark theo ID
-hoặc đơn giản là cứ dán URL vào chat, tôi sẽ tự lưu lại!
     `;
     bot.sendMessage(chatId, welcomeMessage, { parse_mode: 'Markdown' });
 });
